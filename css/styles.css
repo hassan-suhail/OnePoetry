@@ -522,7 +522,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/bg.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -535,6 +535,33 @@ input[type='checkbox'] {
 .header .btn-solid-lg:hover {
 	border: 1px solid #ffffff;
 	color: #ffffff;
+}
+
+.share-btn-container {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px;  /* Adjust as needed */
+    z-index: 1000; /* Make sure it's above other content */
+}
+
+.share-btn {
+    background-color: #ff0000; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 60px; /* Size of the button */
+    height: 60px; /* Size of the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Icon size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.share-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
 }
 
 .header .btn-outline-lg {
