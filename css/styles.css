@@ -172,8 +172,8 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #0b36a8;
-	background-color: #0b36a8;
+	border: 1px solid #ff0000;
+	background-color: #ff0000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -380,6 +380,7 @@ input[type='checkbox'] {
 }
 
 .navbar .navbar-brand {
+	color: #ff0000;
 	padding-top: 0.125rem;
 	padding-bottom: 0.125rem;
 }
